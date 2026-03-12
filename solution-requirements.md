@@ -7,20 +7,20 @@ This section describes the technical requirements related to the target platform
 
 ### Target Framework
 
-The C# projects in this solution must target [.NET 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0). When creating a C# project, ensure that the [target framework moniker](https://learn.microsoft.com/en-us/dotnet/standard/frameworks) is set to `net9.0` in a project file:
+The C# projects in this solution must target [.NET 10](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or above. When creating a C# project, ensure that the [target framework moniker](https://learn.microsoft.com/en-us/dotnet/standard/frameworks) is set to `net10.0` in a project file:
 
 ```xml
-<TargetFramework>net9.0</TargetFramework>
+<TargetFramework>net10.0</TargetFramework>
 ```
 
-If you're having trouble developing .NET 9 applications, make sure you have the .NET SDK 9 installed by running the [dotnet command](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet) in the console:
+If you're having trouble developing .NET 10 applications, make sure you have the .NET SDK 10 installed by running the [dotnet command](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet) in the console:
 
 ```cmd
 C:\>dotnet --list-sdks
-9.0.100 [C:\Program Files\dotnet\sdk]
+10.0.100 [C:\Program Files\dotnet\sdk]
 ```
 
-If you do not have the .NET SDK 9 installed, you can download the installer from the [Download .NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) page.
+If you do not have the .NET SDK 10 installed, you can download the installer from the [Download .NET 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) page.
 
 
 ### C# Projects
